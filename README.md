@@ -1,4 +1,4 @@
 datemail
 ========
 
-Ceci est un proje tsuper interessant :D
+Ceci est un projet super interessant :D
