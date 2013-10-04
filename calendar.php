@@ -13,6 +13,7 @@
 	$nbJoursMois=date('t');
 
 	for ($i=1; $i <= $nbJoursMois; $i++) {
+		$today='';
 
 		$dayWeek=date('w',mktime('0','0','0',date('n'),$i)).'<br>';
 
@@ -27,7 +28,11 @@
 				echo "<td></td>";
 			}
 		}
-		echo "<td>$i</td>";
+
+		if($i==date('w')-1)
+			$today='style="background-color: #9999ca; color: white;"';
+
+		echo "<td $today>$i</td>";
 
 		if($dayWeek==6)
 		{
