@@ -12,10 +12,10 @@ session_start();
 //-----------------------------------------------------------------------
 define("IP", "");
 define("DBTYPE", "mysqli");
-define("DBHOST", "mysql51-99.perso");
-define("DBUSER", "fdelagouweb");
-define("DBPWD", "FD783406");
-define("DBNAME", "fdelagouweb");
+define("DBHOST", "");
+define("DBUSER", "");
+define("DBPWD", "");
+define("DBNAME", "");
 define("MAXROWS", "9999");
 //-----------------------------------------------------------------------
 // Constantes de paramètrage du site
@@ -46,7 +46,7 @@ define("MAXROWS", "9999");
 // // Inclusion
 // //-----------------------------------------------------------------------
 require_once('lib/genlib.php'); // general functions
-// require_once('lib/datalib.php'); // SQL functions 
+// require_once('lib/datalib.php'); // SQL functions
 // require_once('dbconnect.php'); // Database access functions
 // require_once(load_user_language());
 // $db->debug = false; // mode debug sql
