@@ -1,10 +1,4 @@
-<style>
-	table {text-align: center;}
-	td,th {padding: 3px;}
-
-	.today {background-color: #9999ca; color: white;}
-	.today:hover {background-color: #e9eaed; color: #9999ca;}
-</style>
+<link rel="stylesheet" href="stylebase.css">
 
 <table>
 	<tr>
@@ -23,7 +17,7 @@
 	for ($i=1; $i <= $nbJoursMois; $i++) {
 		$today='';
 
-		$dayWeek=date('w',mktime('0','0','0',date('n'),$i)).'<br>';
+		$dayWeek=date('w',mktime('0','0','0',date('n'),$i));
 
 		if($dayWeek==0)
 		{

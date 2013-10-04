@@ -10,12 +10,12 @@ session_start();
 //-----------------------------------------------------------------------
 // Constantes de paramètrage Base de données
 //-----------------------------------------------------------------------
-define("IP", "");
+define("IP", "localhost");
 define("DBTYPE", "mysqli");
-define("DBHOST", "");
-define("DBUSER", "");
+define("DBHOST", "localhost");
+define("DBUSER", "root");
 define("DBPWD", "");
-define("DBNAME", "");
+define("DBNAME", "calendrier");
 define("MAXROWS", "9999");
 //-----------------------------------------------------------------------
 // Constantes de paramètrage du site
