@@ -1,3 +1,11 @@
+<style>
+	table {text-align: center;}
+	td,th {padding: 3px;}
+
+	.today {background-color: #9999ca; color: white;}
+	.today:hover {background-color: #e9eaed; color: #9999ca;}
+</style>
+
 <table>
 	<tr>
 		<th>Dim</th>
@@ -30,7 +38,7 @@
 		}
 
 		if($i==date('w')-1)
-			$today='style="background-color: #9999ca; color: white;"';
+			$today='class="today"';
 
 		echo "<td $today>$i</td>";
 
