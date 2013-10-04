@@ -12,10 +12,10 @@ session_start();
 //-----------------------------------------------------------------------
 define("IP", "");
 define("DBTYPE", "mysqli");
-define("DBHOST", "mysql51-99.perso");
-define("DBUSER", "fdelagouweb");
-define("DBPWD", "FD783406");
-define("DBNAME", "fdelagouweb");
+define("DBHOST", "");
+define("DBUSER", "");
+define("DBPWD", "");
+define("DBNAME", "");
 define("MAXROWS", "9999");
 //-----------------------------------------------------------------------
 // Constantes de paramètrage du site
